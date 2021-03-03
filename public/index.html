@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title>Express</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modalUser">
+        <input type="text" id="inputUser">
+        <button class="bUser">Choose User</button>
+      </div>
+    </div>
+  </div>
+
+  <ul id="messages"></ul>
+  <form id="form" action="">
+    <input id="input" autocomplete="off" />
+    <input type="color" class="color">
+    <button class="bold" id="bold">Bold</button>
+    <button>Send</button>
+    
+  </form>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="javascripts/main.js"></script>
+</body>
+
+</html>
